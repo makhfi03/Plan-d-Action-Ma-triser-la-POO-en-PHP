@@ -1,6 +1,7 @@
 <!-- Plan d'Action : Maîtriser la POO en PHP
 Niveau Facile : Les Fondations -->
-
+<!-- La Classe Voiture -->
+ 
 <?php
 class Voiture{
      public $marque;
