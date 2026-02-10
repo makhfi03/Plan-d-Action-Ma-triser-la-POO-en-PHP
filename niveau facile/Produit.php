@@ -1,8 +1,8 @@
 <!-- Gestion de Produits -->
 
 <?php
-
-class Produit{
+class Produit
+{
     private $nom;
     private $prix;
 
@@ -12,7 +12,8 @@ class Produit{
         $this->prix = $prix;
     }
 
-    public function affichage(){
+    public function affichage()
+    {
         echo "le prix de" . $this->nom . "est:" . $this->prix . "DH";
     }
 }

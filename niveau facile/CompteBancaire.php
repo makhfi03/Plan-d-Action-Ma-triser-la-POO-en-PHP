@@ -1,10 +1,12 @@
 <!-- Le Compte Bancaire -->
 
 <?php
-class CompteBancaire{
+class CompteBancaire
+{
     private $solde;
 
-    public function deposer($montant) {
+    public function deposer($montant)
+    {
         if ($montant > 0) {
             $this->solde += $montant;
             echo "Dépôt de $montant effectué";
@@ -13,7 +15,8 @@ class CompteBancaire{
         }
     }
 
-    public function retirer($montant) {
+    public function retirer($montant)
+    {
         if ($montant <= 0) {
             echo "Montant invalide";
         } elseif ($montant > $this->solde) {
